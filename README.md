@@ -1,124 +1,134 @@
-# 21_Ctrl-alt-elite_health-and-wellness
 # HealthStack-System
 
-- An online platform that caters to multiple hospitals, enabling efficient tracking, monitoring, and sharing of patient health records between themselves. Patients can access information on various hospitals and doctors, book appointments online, purchase medicines from an online pharmacy, pay for laboratory tests via an integrated payment gateway, and even chat with their appointed doctors.
+**HealthStack-System** is an online platform catering to multiple hospitals, designed to efficiently track, monitor, and share patient health records. It allows seamless interaction among patients, doctors, hospitals, lab workers, and pharmacists, ensuring a comprehensive healthcare management experience. 
 
-## Tools used:
-      1) Programming Language and Libraries: Django (Python web framework), Bootstrap, JavaScript, Ajax, Django REST framework.
-      2) Database: SQLite
-      3) APIs used: MailTrap, SSLCommerz Payment Gateway, , Django PDF library, Django channels for chat, ngrok HTTP, PyPI packages.
-       4)Blockchain Integration:Ensures secure and tamper-proof storage of patient records using decentralized technology.
-      5)Chatbot Support:Provides 24/7 assistance for appointment booking, FAQs, and basic health inquiries.
-      6)Two-Factor Authentication (2FA):Enhances security by requiring users to verify their identity using a second authentication method, such as OTP or email verification.
-## Features
+Patients can book appointments, access prescriptions, order medicines, pay for lab tests, and chat with doctors, all through a single platform. The system also incorporates advanced features like blockchain for secure data management, two-factor authentication for enhanced security, and an AI-powered chatbot for user support.
 
-- **Users:** Patient, Doctor, Hospital Admin, Lab Worker, Pharmacist
+---
 
-### Patient
-      1)  Search multiple Hospital → Department List → Search for Doctors
-      2)  Doctor Profile → Book Appointment
-      3)  Pay Appointment + Mail Confirmation 
-      4)  Search all Doctors in all hospitals
-      5)  Chat with appointed Doctor
-      6)  View Prescription, Download Prescription (PDF)
-      7)  Choose which tests to pay (Cart System, payment + mail confirmation)
-      8)  View Report, Download Report (PDF)
-      9)  Give Doctor Review
-      10) Search for Medicines in Medical Shop (Pharmacy)
-      11) Select which medicines to purchase (Cart system), pay total amount for medicines (payment + mail confirmation)
-      
-### Doctor 
-      1)  Doctor Profile Settings (Add More feature)
-      2)  Search multiple Hospital → Doctor register to hospital + upload certificate
-      3)  (Once registered by admin) accept or reject patients appointment (mail confirmation send to patient)
-      4)  Search patient profile → Create and view Prescription, view report
-      5)  Chat with appointed Patient
-      
-### Hospital Admin
-      1)  Admin Dashboard
-      2)  Accept or reject doctor registration (view doctor profile to see details)
-      3)  CRUD Hospitals (Add more)
-      4)  View Hospital List → CRUD Departments within hospital
-      5)  CRUD Lab Worker
-      6)  CRUD Pharmacist
+## **Advanced Features**
 
-### Lab worker
-      1)  Lab Worker Dashboard
-      2)  Create Report for patient.
-      3)  Create Tests for hospitals, View Tests
+### **Blockchain Integration**
+The platform leverages blockchain technology to securely store and manage patient health records, ensuring data immutability and enhancing trust between stakeholders.
 
-### Pharmacist
-      1)  Pharmacist Dashboard
-      2)  CRUD Medicines
-      3)  Search Medicine
+### **Two-Factor Authentication (2FA)**
+Enhanced security is provided through two-factor authentication, protecting user accounts and sensitive data from unauthorized access.
+
+### **AI-Powered Chatbot**
+An AI chatbot assists users with navigation, queries, and support, providing a seamless and interactive experience.
+
+---
+
+---
+
+## **Tools Used**
+
+1. **Programming Languages and Libraries:**
+   - Django (Python web framework)
+   - Bootstrap
+   - JavaScript
+   - Ajax
+   - Django REST framework
+
+2. **Database:**
+   - SQLite
+
+3. **APIs and Libraries:**
+   - MailTrap
+   - SSLCommerz Payment Gateway
+   - Django PDF library
+   - Django channels for chat
+   - ngrok HTTP
+   - PyPI packages
+
+4. **Security Features:**
+   - Blockchain for secure data management
+   - Two-Factor Authentication (2FA) for secure login
+
+5. **AI Features:**
+   - AI-powered chatbot for user assistance
+
+---
+
+## **Features**
+
+### **Users**
+- **Patient**
+- **Doctor**
+- **Hospital Admin**
+- **Lab Worker**
+- **Pharmacist**
+
+---
+
+### **Patient Features**
+1. Search hospitals and departments; find doctors.
+2. View doctor profiles and book appointments.
+3. Payment and mail confirmation for appointments.
+4. Search all doctors across hospitals.
+5. Chat with appointed doctors.
+6. View and download prescriptions (PDF).
+7. Pay for tests with a cart system; receive mail confirmation.
+8. View and download reports (PDF).
+9. Provide reviews for doctors.
+10. Search medicines in the online pharmacy.
+11. Purchase medicines with a cart system; make payments with mail confirmation.
+
+---
+
+### **Doctor Features**
+1. Manage doctor profiles.
+2. Register in hospitals and upload certificates.
+3. Accept/reject patient appointments (mail confirmation sent).
+4. View patient profiles, create/view prescriptions, and view reports.
+5. Chat with appointed patients.
+
+---
+
+### **Hospital Admin Features**
+1. Admin dashboard for managing operations.
+2. Approve/reject doctor registrations (view doctor details).
+3. CRUD (Create, Read, Update, Delete) operations on hospitals, departments, lab workers, and pharmacists.
+
+---
+
+### **Lab Worker Features**
+1. Lab worker dashboard.
+2. Create patient reports.
+3. Create and manage tests for hospitals.
+
+---
+
+### **Pharmacist Features**
+1. Pharmacist dashboard.
+2. CRUD operations for medicines.
+3. Search medicines in the inventory.
+
+---
+
+## **APIs and PyPI Packages**
+1. **[Django Rest Framework](https://www.django-rest-framework.org/#installation):** Toolkit for building web APIs.
+2. **[Django Widget Tweaks](https://pypi.org/project/django-widget-tweaks/):** Modify form field rendering in templates.
+3. **[Pillow](https://pillow.readthedocs.io/en/stable/index.html):** Python imaging library.
+4. **[Mailtrap API](https://mailtrap.io/blog/django-send-email/):** SMTP fake testing server for email verification.
+5. **[Django Environ](https://django-environ.readthedocs.io/en/latest/):** Securely manage credentials using `.env` files.
+6. **[SSLCommerz API](https://github.com/sslcommerz/SSLCommerz-Python):** Payment gateway for debit/credit cards, mobile banking, etc.
+7. **[Django Debug Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html):** Debugging tool for analyzing requests and responses.
+8. **[xhtml2pdf](https://xhtml2pdf.readthedocs.io/en/latest/usage.html):** PDF generation and downloading.
 
 
-## APIs and PyPI packages used:
+## **Screenshots**
 
-#### [Django Rest Framework](https://www.django-rest-framework.org/#installation) - toolkit for building web APIs
-#### [Django Widget Tweaks](https://pypi.org/project/django-widget-tweaks/) - tweak form field rendering in templates
-#### [Pillow](https://pillow.readthedocs.io/en/stable/index.html) - Python imaging library
-#### [Mailtrap API](https://mailtrap.io/blog/django-send-email/) - smtp fake testing server
-#### [Django Environ](https://django-environ.readthedocs.io/en/latest/) - protecting credentials online (.env file)
-#### [SSLCommerz API](https://github.com/sslcommerz/SSLCommerz-Python) - a payment gateway that provides various payment options in Bangladesh (debit card, credit card, mobile banking, etc.)
-#### [Django Debug Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - configurable set of panels that display various debug information about the current request/response and when clicked
-#### [xhtml2pdf](https://xhtml2pdf.readthedocs.io/en/latest/usage.html) - to generate and download pdf documents.
-
-
-
-# Some Screenshots
-
-## Home page
-
+### **Home Page**
 <img src="https://user-images.githubusercontent.com/64092765/191188204-39dc320f-ec0f-4634-a8db-4735fd89cec9.png" width="50%">
 
-<img src="https://user-images.githubusercontent.com/64092765/191188212-a48d1616-42ec-4413-bb7f-cf0d6347b165.png" width="50%">
-
-<img src="https://user-images.githubusercontent.com/64092765/191188230-2a57e567-a879-487f-a907-8e6add15c8ca.png" width="50%">
-
-
-## Patient
-
+### **Patient Interface**
 <img src="https://user-images.githubusercontent.com/64092765/191187372-0ea1bc75-aeee-4d2a-8624-27877d213753.png" width="50%">
 
-<img src="https://user-images.githubusercontent.com/64092765/191187384-46f21266-3550-42a9-b3c9-17b19e870608.png" width="50%">
-
-<img src="https://user-images.githubusercontent.com/64092765/191187390-b5dd8bbb-b7e6-4ba6-9423-71e93332e020.png" width="50%">
-
-<img src="https://user-images.githubusercontent.com/64092765/191187405-73b06afa-10ac-46b2-9138-8eb077401d5b.png" width="50%">
-
-<img src="https://user-images.githubusercontent.com/64092765/191187428-1445ca78-626d-4b00-8bc6-ce8639f2c303.png" width="50%">
-
-<img src="https://user-images.githubusercontent.com/64092765/191187437-e415ed6b-cddc-4862-b34c-6ce59a75c72d.png" width="50%">
-
-## Doctor
-
+### **Doctor Interface**
 <img src="https://user-images.githubusercontent.com/64092765/191187476-aae75261-0298-4d13-bc19-d2db8918c1f6.png" width="50%">
 
-<img src="https://user-images.githubusercontent.com/64092765/191187496-f1e0e7e4-ecd4-4c5d-8fdf-abc77a7d2031.png" width="50%">
-
-<img src="https://user-images.githubusercontent.com/64092765/191187508-d03649a8-00ba-4c4c-a4a5-8a17a6fa196f.png" width="50%">
-
-## Hospital Admin
-
+### **Hospital Admin Dashboard**
 <img src="https://user-images.githubusercontent.com/64092765/191187604-4985a19c-c292-47a9-a21b-befd03500dae.png" width="50%">
 
-<img src="https://user-images.githubusercontent.com/64092765/191187692-05edf07b-a94f-4723-9e95-6b5c04cf03d8.png" width="50%">
-
-<img src="https://user-images.githubusercontent.com/64092765/191187722-820d572b-2a20-4fd1-bc5b-70af699c43b7.png" width="50%">
-
-
-
-### Lab Worker
-
-<img src="https://user-images.githubusercontent.com/64092765/191188113-f9bb37ae-30a2-46b3-a871-e3ca5aa3df47.png" width="50%">
-
-<img src="https://user-images.githubusercontent.com/64092765/191188138-2dd284c8-a815-4060-87f3-61ffd7c2300d.png" width="50%">
-
-
-
-
-
-
-
-
+---
