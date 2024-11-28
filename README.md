@@ -119,12 +119,19 @@ An AI chatbot assists users with navigation, queries, and support, providing a s
 ## 🖼️ **Screenshots**  
 
 ##Home Page
+
 <img src="https://user-images.githubusercontent.com/64092765/191188204-39dc320f-ec0f-4634-a8db-4735fd89cec9.png" width="50%">
+
 ##Patient Interface
+
 <img src="https://user-images.githubusercontent.com/64092765/191187372-0ea1bc75-aeee-4d2a-8624-27877d213753.png" width="50%">
+
 ##Doctor Interface
+
 <img src="https://user-images.githubusercontent.com/64092765/191187476-aae75261-0298-4d13-bc19-d2db8918c1f6.png" width="50%">
+
 ##Hospital Admin Dashboard
+
 <img src="https://user-images.githubusercontent.com/64092765/191187604-4985a19c-c292-47a9-a21b-befd03500dae.png" width="50%">
 
 This feature-rich system empowers users with a secure and modern platform for managing healthcare services, integrating advanced technologies for an exceptional experience. 💡
