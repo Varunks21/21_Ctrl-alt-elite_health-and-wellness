@@ -89,11 +89,6 @@
             python manage.py runserver
             
 
-# MKDocs Documentation, Youtube Video and Presentation
-- [Youtube](https://youtu.be/TSR00OKBSCY) video link of MKDocs documentation on our Healthstack project.
-- [HeathStack Software - Presentation](https://github.com/Jawwad-Fida/HealthStack-System/files/13839586/HeathStack.Software.-.Presentation.pdf)
-- Checkout out the [MKdocs documentation](https://jawwad-fida.github.io/HealthStack-System/) to see screenshots of our project.
-
 # Some Screenshots
 
 ## Home page
