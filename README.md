@@ -108,15 +108,7 @@
 
 <img src="https://user-images.githubusercontent.com/64092765/191187722-820d572b-2a20-4fd1-bc5b-70af699c43b7.png" width="50%">
 
-## Pharmacist and Pharmacy
 
-<img src="https://user-images.githubusercontent.com/64092765/191187822-6468adf2-c3ca-470a-87e7-1360e5415435.png" width="50%">
-
-<img src="https://user-images.githubusercontent.com/64092765/191187869-24175b0d-38b2-41ff-9eb7-c793b8af0aa1.png" width="50%">
-
-<img src="https://user-images.githubusercontent.com/64092765/191187883-dfd52812-b521-467d-9094-d5ff75f36492.png" width="50%">
-
-<img src="https://user-images.githubusercontent.com/64092765/191187934-cfec116d-9a4d-420a-8270-6edab947ba95.png" width="50%">
 
 ### Lab Worker
 
