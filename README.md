@@ -7,7 +7,9 @@
       1) Programming Language and Libraries: Django (Python web framework), Bootstrap, JavaScript, Ajax, Django REST framework.
       2) Database: SQLite
       3) APIs used: MailTrap, SSLCommerz Payment Gateway, , Django PDF library, Django channels for chat, ngrok HTTP, PyPI packages.
-
+       4)Blockchain Integration:Ensures secure and tamper-proof storage of patient records using decentralized technology.
+      5)Chatbot Support:Provides 24/7 assistance for appointment booking, FAQs, and basic health inquiries.
+      6)Two-Factor Authentication (2FA):Enhances security by requiring users to verify their identity using a second authentication method, such as OTP or email verification.
 ## Features
 
 - **Users:** Patient, Doctor, Hospital Admin, Lab Worker, Pharmacist
