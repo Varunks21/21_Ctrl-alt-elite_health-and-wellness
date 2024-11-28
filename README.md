@@ -25,7 +25,7 @@ An AI chatbot assists users with navigation, queries, and support, providing a s
 - Django (Python web framework)  
 - Bootstrap  
 - JavaScript  
-- Ajax  
+- Html  
 - Django REST framework  
 
 ### **Database:**  
